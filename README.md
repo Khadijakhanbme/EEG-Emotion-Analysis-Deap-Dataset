@@ -22,6 +22,8 @@ This notebook includes:
 - Wavelet transform–based analysis (time–frequency)
 - Visualizations related to Valence and Arousal
 
+The notebook concludes with observations on EEG time–frequency characteristics related to Valence and Arousal.  
+
 ---
 
 ## Dataset Overview (DEAP)
