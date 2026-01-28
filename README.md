@@ -6,7 +6,7 @@ recordings from the **DEAP (Database for Emotion Analysis using Physiological Si
 The analysis focuses on **Valence** and **Arousal** emotion dimensions using **EEG-only**
 signals (32 channels) from a subset of subjects (10 subjects), as required by the project.
 
-Full code + detailed explanations are provided in the notebook below.
+Full code + detailed explanations are provided in the notebook.
 
 ---
 
@@ -54,7 +54,7 @@ Typical Python dependencies:
 - scipy
 - matplotlib
 - pywavelets
-- pandas (if used)
+- pandas
 
 ---
 
