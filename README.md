@@ -4,11 +4,11 @@ This project explores the relationship between EEG signals and emotional states 
 
 ##  Project Overview
 
-- 📊 **Dataset:** DEAP (32-channel EEG recordings across 40 trials per subject)  
-- 📉 **Data Scope:** Analysis performed on a subset of **10 subjects** using **EEG-only signals (32 channels)**  
-- ⚙️ **Preprocessing:** Verified dataset quality (no additional filtering required)  
-- 🔍 **Feature Extraction:** Multi-resolution analysis using **Discrete Wavelet Transform (DWT - db4)**  
-- 🧠 **Objective:** Identify EEG patterns correlated with emotional dimensions — **Valence** and **Arousal**  
+-  **Dataset:** DEAP (32-channel EEG recordings across 40 trials per subject)  
+-  **Data Scope:** Analysis performed on a subset of **10 subjects** using **EEG-only signals (32 channels)**  
+-  **Preprocessing:** Verified dataset quality (no additional filtering required)  
+-  **Feature Extraction:** Multi-resolution analysis using **Discrete Wavelet Transform (DWT - db4)**  
+-  **Objective:** Identify EEG patterns correlated with emotional dimensions — **Valence** and **Arousal**  
 
 The analysis focuses specifically on **Valence** and **Arousal** emotion dimensions using EEG signals to understand how different brain regions and frequency bands contribute to emotional responses.
 
@@ -132,6 +132,14 @@ Typical Python dependencies:
 - pandas
 
 ---
+
+## Project Structure
+
+```text
+EEG-Emotion-Analysis-Deap-Dataset/           
+├── Results/           # Important plots
+└── EEG_Signal_Processing_And_Analysis.ipynb   # Code file with detailed explanation and reasoning
+```
 
 ## Author
 
