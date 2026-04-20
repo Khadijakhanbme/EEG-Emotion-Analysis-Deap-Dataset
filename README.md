@@ -80,10 +80,10 @@ Identifies the most emotion-sensitive EEG channels for both arousal and valence.
 
 <p align="center">
   <img src="results/Best Moel _XGBoost_Confusion Matrix for Arousal.png" width="45%"/>
+   <img src="results/Valence_Confusion matrix.png" width="45%"/>
 </p>
 
-Demonstrates classification performance, showing  prediction accuracy for emotional states.
-
+Demonstrates classification performance using minimal time-frequency features, where XGBoost achieved the best results for Arousal classification, while Random Forest performed best for Valence prediction.
 ---
 
 ### 📊 Region Sensitivity Overview
