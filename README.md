@@ -96,31 +96,6 @@ Compares overall contribution of brain regions to emotional processing.
 
 ---
 
-## 📂 Repository Structure
-
-EEG-Emotion-Analysis-DEAP-Dataset/
-│
-├── notebooks/
-│ └── DEAP_DATASET_SIGNAL_PROCESSING_PROJECT.ipynb # Main analysis notebook
-│
-├── results/
-│ ├── eeg_signal_snapshot.png
-│ ├── time_frequency_arousal.png
-│ ├── time_frequency_valence.png
-│ ├── region_analysis_arousal.png
-│ ├── region_analysis_valence.png
-│ ├── top_channels_arousal.png
-│ ├── top_channels_valence.png
-│ ├── highly_correlated_channels_arousal.png
-│ ├── xgboost_confusion_matrix_arousal.png
-│ └── region_sensitivity.png
-│
-├── data/ # DEAP dataset (not included due to size/licensing)
-│
-└── README.md
-
----
-
 ##  Conclusion
 
 This project demonstrates that emotional states such as **valence and arousal** can be effectively characterized using EEG signals through **time-frequency analysis**. The use of DWT enables capturing both temporal and spectral features, revealing that different frequency bands and brain regions contribute distinctly to emotional processing. These findings highlight the potential of EEG-based approaches for **affective computing and real-world emotion recognition systems**.
